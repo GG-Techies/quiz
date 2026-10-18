@@ -8,7 +8,6 @@
   function apply() {
     const active = preference === 'system' ? (media.matches ? 'dark' : 'light') : preference;
     document.documentElement.dataset.theme = active;
-    document.documentElement.style.colorScheme = active;
     document.querySelector('meta[name="theme-color"]').content = active === 'dark' ? '#181020' : '#fffcf3';
     window.dispatchEvent(new Event('bora-theme-change'));
   }
