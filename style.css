@@ -82,3 +82,37 @@
 [data-theme="dark"] .theme-option{background:#2c1e38;color:#f8f1ff}
 [data-theme="dark"] .theme-option[aria-pressed="true"]{background:#433052;border-color:#ccb0e5}
 [data-theme="dark"] #toast{background:var(--lime);color:var(--purple)}
+
+/* Keep the next action beside the explanation, in normal document flow. */
+.playing header{height:80px}
+.playing main{padding:28px 0 40px}
+.playing .game-meta{margin-bottom:10px;align-items:flex-start}
+.playing .game-meta span:last-child{white-space:nowrap}
+.playing .progress{margin-bottom:18px}
+.playing .question-card{padding:24px}
+.playing h2.question{margin:0 0 18px}
+.playing .question-card .primary{margin-top:14px}
+.playing .feedback{margin-top:12px;padding:16px}
+.answer-summary-row{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid;border-radius:12px;line-height:1.4;overflow-wrap:anywhere}
+.answer-summary-row+.answer-summary-row{margin-top:8px}
+.answer-summary-row.correct{background:#f0f7dd;border-color:#88a848;color:#294721}
+.answer-summary-row.incorrect{background:#fcf0f2;border-color:#cd95a1;color:var(--red)}
+.answer-summary-row>div{min-width:0}
+.summary-mark{font-size:21px;font-weight:800;flex:none}
+.summary-label{display:block;font-size:12px;margin-bottom:2px}
+.answer-summary-row strong{font-size:17px}
+.answer-review{font-size:13px;color:var(--muted)}
+.answer-review summary{width:fit-content;min-height:44px;padding:12px 2px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.answer-review[open] .answers{margin:2px 0 14px}
+[data-theme="dark"] .answer-summary-row.correct{background:#263c29;border-color:#8daa54;color:#e4f4bc}
+[data-theme="dark"] .answer-summary-row.incorrect{background:#462834;border-color:#c88a9c;color:#ffc9d6}
+@media(max-width:720px){
+  .playing .shell{padding:0 18px}
+  .playing header{height:72px}
+  .playing .header-right{gap:6px}
+  .playing .icon-btn{width:44px;height:44px}
+  .playing main{padding:16px 0 32px}
+  .playing .game-meta{font-size:12px;gap:12px}
+  .playing .progress{margin-bottom:16px}
+  .playing .question-card{padding:18px}
+}

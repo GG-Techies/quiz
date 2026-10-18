@@ -18,13 +18,61 @@ const flagIcon='<svg viewBox="0 0 100 100" aria-hidden="true"><path d="M24 87V17
 function art(){return episode.id.startsWith('sabores')?globe:episode.id.startsWith('animais')?leaf:episode.id.startsWith('max-')?steeringWheel:episode.id.startsWith('bandeira')?flagIcon:trophy;}
 function home(preview=false){app.innerHTML=`<div class="home"><section class="intro"><div class="eyebrow"><i class="dot"></i> SEU DESAFIO DIÁRIO</div><h1>Curiosidade<br>em dia.<br><em>Bora jogar?</em></h1><p class="lead">Cinco perguntas para testar seus palpites e descobrir algo novo. Sem pressa, só por diversão.</p><div class="mini-tiles" aria-hidden="true"><span>✓</span><span>✓</span><span>?</span><span>✓</span><span>✓</span></div><p class="tiny">Um desafio para todo mundo.<br>Uma nova chance de fazer 5/5 amanhã.</p></section><section class="today-wrap" aria-label="Desafio de hoje"><div class="today-card"><div class="card-top"><div class="meta"><span class="pill">DESAFIO #${esc(formatEpisodeNumber(episode.number))}</span><span>${dateLabel(today)}</span></div><div class="theme-art"><span class="star" aria-hidden="true">✦</span>${art()}<span class="star" aria-hidden="true">✧</span></div><h2>${esc(episode.title)}</h2><p>${esc(episode.subtitle)}</p></div><div class="card-bottom"><div class="features"><span>5 perguntas</span><span>3 alternativas</span><span>Sem cronômetro</span></div><button class="primary" id="start">Bora! <span aria-hidden="true">→</span></button><p class="tiny">É só chegar e jogar. Sem cadastro.</p></div></div><p class="bottom-note">Um novo desafio à meia-noite • horário de Brasília</p></section></div>`;document.querySelector('#start').onclick=()=>{if(preview){const url=new URL(location.href);url.searchParams.delete('preview');location.replace(url.href);return;}refresh();if(!episode){render();return;}progress.started=true;save();render();moveFocus();};}
 function sourceLinks(q){return `<details class="sources"><summary>De onde vem essa curiosidade?</summary>${q.sources.filter(s=>/^https?:\/\//.test(s.url)).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a>`).join('')}</details>`;}
-function question(){const index=progress.seen;const q=episode.questions[index];const answered=progress.answers.length>index;const answer=progress.answers[index];const correct='ABC'.indexOf(q.correct_answer);const right=answered&&answer===correct;
-app.innerHTML=`<section class="game" aria-label="Quiz de hoje"><div class="game-meta"><span>${esc(episode.title)}</span><span>Pergunta ${index+1} de 5</span></div><div class="progress" aria-label="${progress.answers.length} de 5 perguntas respondidas">${episode.questions.map((q,i)=>`<span class="${i<progress.answers.length?(progress.answers[i]==='ABC'.indexOf(q.correct_answer)?'right':'wrong'):i===index?'current':''}"></span>`).join('')}</div><div class="question-card"><div class="eyebrow">DESAFIO #${esc(formatEpisodeNumber(episode.number))} <span aria-hidden="true">/</span> ${dateLabel(today)}</div><h2 class="question" id="question-title">${esc(q.question)}</h2><div class="answers" role="group" aria-labelledby="question-title">${q.options.map((opt,i)=>`<button class="option ${answered?(i===correct?'correct':i===answer?'incorrect':''):i===selected?'selected':''}" data-answer="${i}" ${answered?'disabled':`aria-pressed="${i===selected}"`}><span class="letter">${'ABC'[i]}</span><span>${esc(opt)}</span>${answered&&(i===correct||i===answer)?`<span class="mark" aria-label="${i===correct?'Resposta correta':'Sua resposta, incorreta'}">${i===correct?'✓':'×'}</span>`:''}</button>`).join('')}</div>${answered?`<section class="feedback" aria-live="polite"><h3>${right?'Boa! Acertou.':'Essa fica para a próxima!'}</h3><p>${!right?`A resposta é <strong>${esc(q.options[correct])}</strong>. `:''}${esc(q.explanation)}</p>${sourceLinks(q)}</section><button class="primary" id="next">${index===4?'Ver meu resultado':'Próxima pergunta'} <span aria-hidden="true">→</span></button>`:`<button class="primary" id="confirm" ${selected===null?'disabled':''}>Confirmar resposta <span aria-hidden="true">→</span></button><p class="prompt">Pode pensar à vontade. O tempo é seu.</p>`}</div></section>`;
-if(!answered){document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>{const oldDate=today,oldCount=progress.answers.length;refresh();if(!episode||today!==oldDate||progress.answers.length!==oldCount||progress.seen!==oldCount){selected=null;render();return;}selected=Number(b.dataset.answer);document.querySelectorAll('[data-answer]').forEach(o=>{const yes=Number(o.dataset.answer)===selected;o.classList.toggle('selected',yes);o.setAttribute('aria-pressed',String(yes));});document.querySelector('#confirm').disabled=false;});document.querySelector('#confirm').onclick=()=>{const previousDate=today;const previousCount=progress.answers.length;refresh();if(episode&&today===previousDate&&previousCount===progress.answers.length)progress=recordAnswer(episode,progress,selected);if(episode)save();selected=null;render();document.querySelector('.feedback')?.scrollIntoView({block:'nearest'});};}else{document.querySelector('#next').onclick=()=>{const oldDate=today,oldSeen=progress.seen;refresh();if(episode&&today===oldDate&&progress.seen===oldSeen){progress.seen=Math.min(progress.answers.length,progress.seen+1);save();}selected=null;render();moveFocus();};}}
+function question(){
+  const index=progress.seen;
+  const q=episode.questions[index];
+  const answered=progress.answers.length>index;
+  const answer=progress.answers[index];
+  const correct='ABC'.indexOf(q.correct_answer);
+  const right=answered&&answer===correct;
+  const options=`<div class="answers" role="group" aria-labelledby="question-title">${q.options.map((opt,i)=>`<button class="option ${answered?(i===correct?'correct':i===answer?'incorrect':''):i===selected?'selected':''}" data-answer="${i}" ${answered?'disabled':`aria-pressed="${i===selected}"`}><span class="letter">${'ABC'[i]}</span><span>${esc(opt)}</span>${answered&&(i===correct||i===answer)?`<span class="mark" aria-label="${i===correct?'Resposta correta':'Sua resposta, incorreta'}">${i===correct?'✓':'×'}</span>`:''}</button>`).join('')}</div>`;
+  const answerSummary=answered?`<div class="answer-summary">
+    <div class="answer-summary-row ${right?'correct':'incorrect'}"><span class="summary-mark" aria-hidden="true">${right?'✓':'×'}</span><div><span class="summary-label">${right?'Sua resposta · correta':'Sua resposta · incorreta'}</span><strong>${esc(q.options[answer])}</strong></div></div>
+    ${right?'':`<div class="answer-summary-row correct"><span class="summary-mark" aria-hidden="true">✓</span><div><span class="summary-label">Resposta correta</span><strong>${esc(q.options[correct])}</strong></div></div>`}
+    <details class="answer-review"><summary>Rever alternativas</summary>${options}</details>
+  </div>`:'';
+  app.innerHTML=`<section class="game" aria-label="Quiz de hoje">
+    <div class="game-meta"><span>${esc(episode.title)}</span><span>Pergunta ${index+1} de 5</span></div>
+    <div class="progress" aria-label="${progress.answers.length} de 5 perguntas respondidas">${episode.questions.map((q,i)=>`<span class="${i<progress.answers.length?(progress.answers[i]==='ABC'.indexOf(q.correct_answer)?'right':'wrong'):i===index?'current':''}"></span>`).join('')}</div>
+    <div class="question-card">
+      <h2 class="question" id="question-title">${esc(q.question)}</h2>
+      ${answered?answerSummary:options}
+      ${answered?`<section class="feedback" aria-live="polite"><h3>${right?'Boa! Acertou.':'Essa fica para a próxima!'}</h3><p>${esc(q.explanation)}</p>${sourceLinks(q)}</section><button class="primary" id="next">${index===4?'Ver meu resultado':'Próxima pergunta'} <span aria-hidden="true">→</span></button>`:`<button class="primary" id="confirm" ${selected===null?'disabled':''}>Confirmar resposta <span aria-hidden="true">→</span></button><p class="prompt">Pode pensar à vontade. O tempo é seu.</p>`}
+    </div>
+  </section>`;
+  if(!answered){
+    document.querySelectorAll('[data-answer]').forEach(b=>b.onclick=()=>{
+      const oldDate=today,oldCount=progress.answers.length;
+      refresh();
+      if(!episode||today!==oldDate||progress.answers.length!==oldCount||progress.seen!==oldCount){selected=null;render();return;}
+      selected=Number(b.dataset.answer);
+      document.querySelectorAll('[data-answer]').forEach(o=>{const yes=Number(o.dataset.answer)===selected;o.classList.toggle('selected',yes);o.setAttribute('aria-pressed',String(yes));});
+      document.querySelector('#confirm').disabled=false;
+    });
+    document.querySelector('#confirm').onclick=()=>{
+      const previousDate=today,previousCount=progress.answers.length;
+      refresh();
+      if(episode&&today===previousDate&&previousCount===progress.answers.length)progress=recordAnswer(episode,progress,selected);
+      if(episode)save();
+      selected=null;
+      render();
+      moveFocus();
+    };
+  }else{
+    document.querySelector('#next').onclick=()=>{
+      const oldDate=today,oldSeen=progress.seen;
+      refresh();
+      if(episode&&today===oldDate&&progress.seen===oldSeen){progress.seen=Math.min(progress.answers.length,progress.seen+1);save();}
+      selected=null;
+      render();
+      moveFocus();
+    };
+  }
+}
 function completed(){const db=readStore();return episodes.filter(e=>e.date<=today&&cleanProgress(db[e.date],e).answers.length===5).map(e=>({e,p:cleanProgress(db[e.date],e)}));}
 function stats(){const done=completed();const correct=done.reduce((sum,{e,p})=>sum+score(e,p),0);return `<div class="stats"><div><strong>${done.length}</strong><span>dias jogados</span></div><div><strong>${streak(done.map(x=>x.e.date),today)}</strong><span>dias em sequência</span></div><div><strong>${done.length?Math.round(correct/(done.length*5)*100):0}%</strong><span>de acertos</span></div></div>`;}
 function result(){const n=score(episode,progress);const titles=['Hoje foi dia de descobrir!','Uma descoberta de cada vez.','Já valeu a curiosidade!','Mandou bem!','Passou pertinho!','Gabaritou!'];const hasNext=episodes.some(e=>e.date===shiftDay(today,1));app.innerHTML=`<section class="game result"><div class="question-card"><div class="eyebrow"><i class="dot"></i> DESAFIO DO DIA CONCLUÍDO</div><h2>${titles[n]}</h2><p class="lead">${esc(episode.title)}</p><div class="score">${n}<small>/5</small></div><p class="tiny">${n===5?'Cinco acertos. Curiosidade em dia!':'Acertando ou aprendendo, você saiu sabendo mais.'}</p><div class="result-tiles" aria-label="Resultado por pergunta">${progress.answers.map((a,i)=>{const ok=a==='ABC'.indexOf(episode.questions[i].correct_answer);return `<span class="${ok?'':'miss'}" aria-label="Pergunta ${i+1}: ${ok?'acertou':'errou'}">${ok?'✓':'×'}</span>`;}).join('')}</div><button class="primary" id="share">Compartilhar resultado <span aria-hidden="true">↗</span></button><p class="tiny">Só os acertos. Sem spoilers.</p><button class="secondary" id="review">Rever perguntas e descobertas</button>${stats()}<div class="countdown">${hasNext?'<span>O PRÓXIMO DESAFIO CHEGA EM</span><strong id="countdown">--:--:--</strong><span>À meia-noite, no horário de Brasília</span>':'<span>Próximo desafio em preparação. Volte em breve!</span>'}</div></div></section>`;document.querySelector('#share').onclick=share;document.querySelector('#review').onclick=review;tick();}
-function render(){if(previewHome&&episode){home(true);return;}if(!episode){app.innerHTML=`<section class="game result"><div class="question-card"><div class="eyebrow">BORA VALENDO!</div><h2>Uma pausa na curiosidade.</h2><p class="lead">O próximo desafio está em preparação. Volte em breve para mais cinco descobertas.</p>${stats()}<button class="primary" id="past">Ver meu histórico</button></div></section>`;document.querySelector('#past').onclick=history;return;}if(progress.seen>=5)result();else if(progress.started)question();else home();}
+function render(){document.body.classList.toggle('playing',Boolean(!previewHome&&episode&&progress.started&&progress.seen<5));if(previewHome&&episode){home(true);return;}if(!episode){app.innerHTML=`<section class="game result"><div class="question-card"><div class="eyebrow">BORA VALENDO!</div><h2>Uma pausa na curiosidade.</h2><p class="lead">O próximo desafio está em preparação. Volte em breve para mais cinco descobertas.</p>${stats()}<button class="primary" id="past">Ver meu histórico</button></div></section>`;document.querySelector('#past').onclick=history;return;}if(progress.seen>=5)result();else if(progress.started)question();else home();}
 const dialog=document.querySelector('#dialog');
 function openDialog(content){document.querySelector('#dialog-body').innerHTML=content;if(!dialog.open)dialog.showModal();}
 const themeButton=document.querySelector('#theme');
