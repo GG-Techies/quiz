@@ -1,0 +1,590 @@
+[
+  {
+    "date": "2026-10-18",
+    "id": "sabores-01",
+    "number": 1,
+    "title": "Sabores do mundo",
+    "subtitle": "Uma volta ao mundo em cinco perguntas.",
+    "questions": [
+      {
+        "id": "sabores-01",
+        "question": "A paella é um prato típico de qual país?",
+        "options": [
+          "Itália",
+          "Espanha",
+          "Portugal"
+        ],
+        "correct_answer": "B",
+        "explanation": "É um prato de arroz ligado à região de Valência, na Espanha.",
+        "sources": [
+          {
+            "title": "Recipe: Paella. Spanish cuisine | spain.info",
+            "url": "https://www.spain.info/en/recipe/paella/"
+          }
+        ]
+      },
+      {
+        "id": "sabores-02",
+        "question": "A poutine, com batata frita, queijo e molho, é típica de qual país?",
+        "options": [
+          "Canadá",
+          "França",
+          "Bélgica"
+        ],
+        "correct_answer": "A",
+        "explanation": "Especialidade de Quebec, combina fritas, queijo fresco em pedaços e molho gravy.",
+        "sources": [
+          {
+            "title": "Top 5 Foodie Musts in 72 Hours | Bonjour Québec",
+            "url": "https://www.bonjourquebec.com/en/to-see-and-do/getaways-in-quebec/top-5-foodies-musts"
+          }
+        ]
+      },
+      {
+        "id": "sabores-03",
+        "question": "O kimchi é um acompanhamento típico de qual país?",
+        "options": [
+          "Japão",
+          "China",
+          "Coreia do Sul"
+        ],
+        "correct_answer": "C",
+        "explanation": "É feito de vegetais fermentados, como acelga e rabanete.",
+        "sources": [
+          {
+            "title": "Kimchi | VISITKOREA",
+            "url": "https://english.visitkorea.or.kr/svc/contents/infoBscView.do?menuSn=202&vcontsId=140728"
+          }
+        ]
+      },
+      {
+        "id": "sabores-04",
+        "question": "O ceviche é um símbolo da gastronomia de qual país?",
+        "options": [
+          "Uruguai",
+          "Peru",
+          "Paraguai"
+        ],
+        "correct_answer": "B",
+        "explanation": "A versão de peixe combina pescado cru, limão, cebola e pimenta.",
+        "sources": [
+          {
+            "title": "National Cebiche Day | Peru Travel",
+            "url": "https://www.peru.travel/events/national-cebiche-day"
+          },
+          {
+            "title": "Peruvian Fish Ceviche | Peru Travel",
+            "url": "https://www.peru.travel/gastronomy/en/recipes/entrees/peruvian-fish-ceviche.html"
+          }
+        ]
+      },
+      {
+        "id": "sabores-05",
+        "question": "O khachapuri, um pão com queijo, é típico de qual país?",
+        "options": [
+          "Geórgia",
+          "Turquia",
+          "Grécia"
+        ],
+        "correct_answer": "A",
+        "explanation": "A versão da região de Adjara tem formato de barco, queijo, ovo e manteiga.",
+        "sources": [
+          {
+            "title": "Rediscovering Khachapuri, Georgia's must-try classic | Georgia Travel",
+            "url": "https://georgia.travel/rediscovering-khachapuri-georgias-must-try-classic"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-19",
+    "id": "animais-01",
+    "number": 2,
+    "title": "Animais brasileiros",
+    "subtitle": "Nossa fauna tem muito para surpreender.",
+    "questions": [
+      {
+        "id": "br-animais-capivara-001",
+        "question": "A capivara pertence a qual grupo de mamíferos?",
+        "options": [
+          "Marsupiais",
+          "Roedores",
+          "Primatas"
+        ],
+        "correct_answer": "B",
+        "explanation": "É um roedor que vive perto da água e nada muito bem.",
+        "sources": [
+          {
+            "title": "Capivara — Rede de Proteção Animal de Curitiba",
+            "url": "https://protecaoanimal.curitiba.pr.gov.br/animais-silvestres-curitiba/vertebrados/mamiferos/capivara"
+          }
+        ]
+      },
+      {
+        "id": "br-animais-lobo-guara-001",
+        "question": "O lobo-guará se alimenta de...",
+        "options": [
+          "Só alimentos vegetais",
+          "Só outros animais",
+          "Animais e frutos"
+        ],
+        "correct_answer": "C",
+        "explanation": "É onívoro: come pequenos animais e frutos, como os da lobeira.",
+        "sources": [
+          {
+            "title": "Maned wolf — Smithsonian's National Zoo and Conservation Biology Institute",
+            "url": "https://nationalzoo.si.edu/animals/maned-wolf"
+          },
+          {
+            "title": "Predadores Silvestres e Animais Domésticos: Guia Prático de Convivência — ICMBio/CENAP",
+            "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/guiapredadores-pdf"
+          }
+        ]
+      },
+      {
+        "id": "br-animais-pirarucu-001",
+        "question": "Por que o pirarucu adulto precisa subir à superfície?",
+        "options": [
+          "Para respirar ar",
+          "Para se aquecer ao sol",
+          "Para beber água"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ele tem respiração aérea obrigatória e precisa buscar oxigênio na superfície.",
+        "sources": [
+          {
+            "title": "Para manejo sustentável da espécie, pescadores fazem contagem de pirarucus em lagos da Amazônia — Instituto Mamirauá",
+            "url": "https://mamiraua.org.br/noticias/para-manejo-sustentavel-da-especie-pescadores-fazem-contagem-de-pirarucus-em-lagos-da-amazonia/"
+          }
+        ]
+      },
+      {
+        "id": "br-animais-ema-001",
+        "question": "Entre as emas, quem choca os ovos?",
+        "options": [
+          "A fêmea",
+          "O macho",
+          "Os dois se revezam"
+        ],
+        "correct_answer": "B",
+        "explanation": "O macho choca os ovos e também cuida dos filhotes.",
+        "sources": [
+          {
+            "title": "Filhotes de ema aumentam o número de aves do Zoo de Curitiba e aguardam o nascimento de irmãos — Prefeitura de Curitiba",
+            "url": "https://www.curitiba.pr.gov.br/noticias/filhotes-de-ema-aumentam-o-numero-de-aves-do-zoo-de-curitiba-e-aguardam-o-nascimento-de-irmaos/74978"
+          }
+        ]
+      },
+      {
+        "id": "br-animais-tamandua-001",
+        "question": "Quantos dentes tem um tamanduá-bandeira adulto?",
+        "options": [
+          "Nenhum",
+          "20",
+          "40"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ele não tem dentes e captura insetos com a língua pegajosa.",
+        "sources": [
+          {
+            "title": "Giant anteater — Smithsonian's National Zoo and Conservation Biology Institute",
+            "url": "https://www.nationalzoo.si.edu/animals/giant-anteater"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-20",
+    "id": "premios-01",
+    "number": 3,
+    "title": "O Brasil no pódio",
+    "subtitle": "Talento brasileiro que ganhou o mundo.",
+    "questions": [
+      {
+        "id": "premios-fernanda-torres-001",
+        "question": "Por qual filme Fernanda Torres ganhou o Globo de Ouro em 2025?",
+        "options": [
+          "Central do Brasil",
+          "Ainda Estou Aqui",
+          "Que Horas Ela Volta?"
+        ],
+        "correct_answer": "B",
+        "explanation": "Ela venceu na categoria de melhor atriz em filme de drama.",
+        "sources": [
+          {
+            "title": "The 82nd Golden Globe Awards — Winners",
+            "url": "https://goldenglobes.com/articles/the-82nd-golden-globe-awards-winners/"
+          }
+        ]
+      },
+      {
+        "id": "premios-marta-002",
+        "question": "Em 2018, Marta chegou a quantos prêmios de melhor do mundo da FIFA?",
+        "options": [
+          "Quatro",
+          "Cinco",
+          "Seis"
+        ],
+        "correct_answer": "C",
+        "explanation": "O prêmio de 2018 foi o sexto reconhecimento da FIFA como melhor jogadora do mundo.",
+        "sources": [
+          {
+            "title": "Marta: A great responsibility comes with winning this award",
+            "url": "https://inside.fifa.com/en/news/marta-a-great-responsibility-comes-with-winning-this-award"
+          }
+        ]
+      },
+      {
+        "id": "premios-niemeyer-003",
+        "question": "Qual brasileiro recebeu o Pritzker de arquitetura em 1988?",
+        "options": [
+          "Oscar Niemeyer",
+          "Paulo Mendes da Rocha",
+          "Lúcio Costa"
+        ],
+        "correct_answer": "A",
+        "explanation": "Niemeyer dividiu a premiação de 1988 com o americano Gordon Bunshaft.",
+        "sources": [
+          {
+            "title": "Oscar Niemeyer — The Pritzker Architecture Prize",
+            "url": "https://www.pritzkerprize.com/laureates/1988-niemeyer"
+          }
+        ]
+      },
+      {
+        "id": "premios-lygia-bojunga-004",
+        "question": "Qual brasileira venceu o Hans Christian Andersen de literatura em 1982?",
+        "options": [
+          "Ruth Rocha",
+          "Lygia Bojunga",
+          "Ana Maria Machado"
+        ],
+        "correct_answer": "B",
+        "explanation": "Bojunga foi reconhecida pelo conjunto de sua obra para crianças.",
+        "sources": [
+          {
+            "title": "Hans Christian Andersen Award — IBBY",
+            "url": "https://www.ibby.org/index.php?L=0&id=273"
+          }
+        ]
+      },
+      {
+        "id": "premios-artur-avila-005",
+        "question": "A Medalha Fields, recebida por Artur Avila em 2014, é de qual área?",
+        "options": [
+          "Matemática",
+          "Física",
+          "Química"
+        ],
+        "correct_answer": "A",
+        "explanation": "Avila foi premiado por suas contribuições à teoria dos sistemas dinâmicos.",
+        "sources": [
+          {
+            "title": "Fields Medals 2014 — International Mathematical Union",
+            "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014"
+          },
+          {
+            "title": "The Work of Artur Avila — IMU",
+            "url": "https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2014/news_release_avila2.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "id": "premios-02",
+    "number": 4,
+    "title": "O Brasil no pódio · 2",
+    "subtitle": "Mais cinco conquistas para descobrir.",
+    "questions": [
+      {
+        "id": "premios-milton-nascimento-006",
+        "question": "Qual álbum de Milton Nascimento ganhou um Grammy em 1998?",
+        "options": [
+          "Txai",
+          "Angelus",
+          "Nascimento"
+        ],
+        "correct_answer": "C",
+        "explanation": "Nascimento venceu na categoria de melhor álbum de world music.",
+        "sources": [
+          {
+            "title": "Best World Music Album 1998 — Grammy",
+            "url": "https://www.grammy.com/awards/categories/best-world-music-album/1998/"
+          },
+          {
+            "title": "Milton Nascimento — Grammy Awards and Nominations",
+            "url": "https://www.grammy.com/artists/milton-nascimento/4781/"
+          }
+        ]
+      },
+      {
+        "id": "premios-chico-buarque-007",
+        "question": "Qual cantor e escritor venceu o Prêmio Camões de 2019?",
+        "options": [
+          "Chico Buarque",
+          "Caetano Veloso",
+          "Gilberto Gil"
+        ],
+        "correct_answer": "A",
+        "explanation": "Chico venceu a edição de 2019 do prêmio dedicado à literatura em português.",
+        "sources": [
+          {
+            "title": "Chico Buarque é o vencedor do Prémio Camões 2019 — Cultura Portugal",
+            "url": "https://culturaportugal.gov.pt/pt/saber/2019/05/chico-buarque-%C3%A9-o-vencedor-do-pr%C3%A9mio-cam%C3%B5es-2019/"
+          }
+        ]
+      },
+      {
+        "id": "premios-liniker-011",
+        "question": "Quem venceu o Grammy Latino de melhor álbum de MPB em 2022?",
+        "options": [
+          "Marisa Monte",
+          "Liniker",
+          "Caetano Veloso"
+        ],
+        "correct_answer": "B",
+        "explanation": "Liniker venceu com o álbum Indigo Borboleta Anil.",
+        "sources": [
+          {
+            "title": "Melhor Álbum de Música Popular Brasileira — Latin Grammy 2022",
+            "url": "https://www.latingrammy.com/pt/awards/categories/best-mpb-musica-popular-brasileira-album/2022/"
+          }
+        ]
+      },
+      {
+        "id": "premios-fernanda-montenegro-009",
+        "question": "Por qual filme Fernanda Montenegro ganhou o Urso de Prata em 1998?",
+        "options": [
+          "Casa de Areia",
+          "O Outro Lado da Rua",
+          "Central do Brasil"
+        ],
+        "correct_answer": "C",
+        "explanation": "Ela foi premiada no Festival de Berlim por sua interpretação de Dora.",
+        "sources": [
+          {
+            "title": "Central Station — trigon-film (distribuidora)",
+            "url": "https://trigon-film.org/en/films/central-station/"
+          }
+        ]
+      },
+      {
+        "id": "premios-sebastiao-salgado-010",
+        "question": "Qual brasileiro ganhou o Hasselblad de fotografia em 1989?",
+        "options": [
+          "Sebastião Salgado",
+          "Walter Firmo",
+          "Araquém Alcântara"
+        ],
+        "correct_answer": "A",
+        "explanation": "Salgado recebeu o prêmio em uma cerimônia em Gotemburgo, na Suécia.",
+        "sources": [
+          {
+            "title": "Sebastião Salgado — Hasselblad Award Winner 1989",
+            "url": "https://www.hasselbladfoundation.org/en/sebastiao-salgado-2/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "id": "bandeira-01",
+    "number": 5,
+    "title": "Bandeira do Brasil",
+    "subtitle": "Você conhece os detalhes da nossa bandeira?",
+    "questions": [
+      {
+        "id": "br-bandeira-letras-001",
+        "question": "De que cor são as letras na bandeira brasileira?",
+        "options": [
+          "Azul",
+          "Verde",
+          "Preto"
+        ],
+        "correct_answer": "B",
+        "explanation": "A lei determina letras verdes sobre a faixa branca.",
+        "sources": [
+          {
+            "title": "Lei nº 5.700, de 1º de setembro de 1971 — Presidência da República",
+            "url": "https://planalto.gov.br/ccivil_03/leis/l5700.htm"
+          }
+        ]
+      },
+      {
+        "id": "br-bandeira-para-001",
+        "question": "A estrela acima da faixa branca representa qual estado?",
+        "options": [
+          "Pará",
+          "Amazonas",
+          "Roraima"
+        ],
+        "correct_answer": "A",
+        "explanation": "É Spica, da constelação de Virgem, que representa o Pará.",
+        "sources": [
+          {
+            "title": "Semana Espacial: As constelações da bandeira — Agência Espacial Brasileira",
+            "url": "https://www.gov.br/aeb/pt-br/centrais-de-conteudo/publicacoes/instagram-do-periodo-de-defeso-eleitoral-2022/semana-espacial-100-anos-de-independencia-as-constelacoes-da-bandeira/"
+          },
+          {
+            "title": "Símbolos Nacionais — Prefeitura de Garça",
+            "url": "https://www.garca.sp.gov.br/simbolos-nacionais"
+          }
+        ]
+      },
+      {
+        "id": "br-bandeira-positivismo-001",
+        "question": "Qual corrente filosófica inspirou “Ordem e Progresso”?",
+        "options": [
+          "Iluminismo",
+          "Existencialismo",
+          "Positivismo"
+        ],
+        "correct_answer": "C",
+        "explanation": "O lema foi inspirado nas ideias de Auguste Comte.",
+        "sources": [
+          {
+            "title": "Saiba mais sobre a bandeira brasileira — Agência Câmara de Notícias",
+            "url": "https://www.camara.leg.br/noticias/91666-saiba-mais-sobre-a-bandeira-brasileira/"
+          }
+        ]
+      },
+      {
+        "id": "br-bandeira-ceu-manha-001",
+        "question": "O céu da bandeira corresponde a qual período do dia?",
+        "options": [
+          "Manhã",
+          "Tarde",
+          "Noite"
+        ],
+        "correct_answer": "A",
+        "explanation": "O horário definido em lei é 8h30 da manhã.",
+        "sources": [
+          {
+            "title": "Lei nº 8.421, de 11 de maio de 1992 — Presidência da República",
+            "url": "https://www.planalto.gov.br/ccivil_03/leis/l8421.htm"
+          }
+        ]
+      },
+      {
+        "id": "br-bandeira-hino-bilac-001",
+        "question": "Quem escreveu a letra do Hino à Bandeira?",
+        "options": [
+          "Olavo Bilac",
+          "Gonçalves Dias",
+          "Manuel Bandeira"
+        ],
+        "correct_answer": "A",
+        "explanation": "A letra é de Olavo Bilac; a música, de Francisco Braga.",
+        "sources": [
+          {
+            "title": "Saiba mais sobre a bandeira brasileira — Agência Câmara de Notícias",
+            "url": "https://www.camara.leg.br/noticias/91666-saiba-mais-sobre-a-bandeira-brasileira/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-25",
+    "id": "max-verstappen-01",
+    "number": 8,
+    "title": "Max Verstappen",
+    "subtitle": "Cinco perguntas para entrar no ritmo da F1.",
+    "questions": [
+      {
+        "id": "max-primeiro-titulo-001",
+        "question": "Em que ano Max conquistou seu primeiro título na F1?",
+        "options": [
+          "2019",
+          "2021",
+          "2022"
+        ],
+        "correct_answer": "B",
+        "explanation": "Seu primeiro título mundial veio em 2021.",
+        "sources": [
+          {
+            "title": "Max Verstappen — Formula 1 Hall of Fame",
+            "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-max-verstappen.2DttvntAuFvHYrBY2tV8fN"
+          }
+        ]
+      },
+      {
+        "id": "max-estreia-equipe-002",
+        "question": "Por qual equipe Max estreou em corridas de F1?",
+        "options": [
+          "Toro Rosso",
+          "Red Bull",
+          "Williams"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ele estreou pela Toro Rosso na Austrália, em 2015.",
+        "sources": [
+          {
+            "title": "Rise of the Rookie: Max Verstappen — Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/rise-of-the-rookie-how-max-verstappen-went-from-f1s-youngest-rookie-to-a-two.2yCR4fpkIKsUt7kUCwTz3E"
+          },
+          {
+            "title": "The 10 youngest drivers to lead the Drivers’ Championship — Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/from-world-champions-to-title-contenders-the-10-youngest-drivers-to-lead-the.7FLHiuceU8abLaiFzVCLio"
+          }
+        ]
+      },
+      {
+        "id": "max-nascimento-003",
+        "question": "Em que país Max Verstappen nasceu?",
+        "options": [
+          "Países Baixos",
+          "Alemanha",
+          "Bélgica"
+        ],
+        "correct_answer": "C",
+        "explanation": "Nasceu na Bélgica, mas compete pelos Países Baixos.",
+        "sources": [
+          {
+            "title": "Max Verstappen — Formula 1 Hall of Fame",
+            "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-max-verstappen.2DttvntAuFvHYrBY2tV8fN"
+          }
+        ]
+      },
+      {
+        "id": "max-primeira-vitoria-idade-004",
+        "question": "Quantos anos Max tinha ao vencer seu primeiro GP de F1?",
+        "options": [
+          "17 anos",
+          "18 anos",
+          "19 anos"
+        ],
+        "correct_answer": "B",
+        "explanation": "Aos 18 anos, tornou-se o vencedor mais jovem da F1.",
+        "sources": [
+          {
+            "title": "Verstappen stuns with maiden win in Spain — Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/verstappen-stuns-with-maiden-win-in-spain.5fOZ6lEa2nGeQCXgG5VD2x"
+          }
+        ]
+      },
+      {
+        "id": "max-primeira-vitoria-gp-005",
+        "question": "Em qual GP Max conquistou sua primeira vitória na F1?",
+        "options": [
+          "GP da Espanha",
+          "GP de Mônaco",
+          "GP da Áustria"
+        ],
+        "correct_answer": "A",
+        "explanation": "Foi em 2016, na sua primeira corrida pela Red Bull!",
+        "sources": [
+          {
+            "title": "Verstappen stuns with maiden win in Spain — Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/verstappen-stuns-with-maiden-win-in-spain.5fOZ6lEa2nGeQCXgG5VD2x"
+          }
+        ]
+      }
+    ]
+  }
+]
