@@ -1,4 +1,4 @@
-import {dayKey,shiftDay,cleanProgress,recordAnswer,score,streak,shareText,formatEpisodeNumber,ZONE} from './core.mjs';
+import {dayKey,shiftDay,cleanProgress,recordAnswer,score,streak,shareText,formatEpisodeNumber,ZONE} from './core.mjs?v=20261018-security';
 const app=document.querySelector('#app');
 const KEY='bora-valendo.daily.v1';
 let episodes=[], today=dayKey(), episode, progress, selected=null, memory={}, storageOK=true, boundary=0;
