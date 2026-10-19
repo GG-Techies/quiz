@@ -490,6 +490,202 @@
     ]
   },
   {
+    "date": "2026-10-23",
+    "id": "recordes-games-01",
+    "number": 6,
+    "title": "Recordes dos games",
+    "subtitle": "Vendas, consoles e feitos que marcaram os videogames.",
+    "questions": [
+      {
+        "id": "minecraft-vendas",
+        "question": "Segundo o Guinness, qual era o jogo mais vendido em abril de 2025?",
+        "options": [
+          "GTA V",
+          "Minecraft",
+          "Wii Sports"
+        ],
+        "correct_answer": "B",
+        "explanation": "O Guinness registrou 350 milhões de cópias vendidas de Minecraft.",
+        "sources": [
+          {
+            "title": "Guinness World Records — Best-selling videogame",
+            "url": "https://www.guinnessworldrecords.com/world-records/best-selling-video-game"
+          }
+        ]
+      },
+      {
+        "id": "ps2-geracao",
+        "question": "Qual foi o console mais vendido da sexta geração?",
+        "options": [
+          "PlayStation 2",
+          "GameCube",
+          "Xbox"
+        ],
+        "correct_answer": "A",
+        "explanation": "O PlayStation 2 liderou sua geração em vendas.",
+        "sources": [
+          {
+            "title": "Guinness World Records — Best-selling sixth-generation videogame console",
+            "url": "https://www.guinnessworldrecords.com/world-records/109933-best-selling-sixth-generation-videogame-console"
+          }
+        ]
+      },
+      {
+        "id": "gta-bilhao",
+        "question": "Em 2013, qual jogo faturou US$ 1 bilhão em só três dias?",
+        "options": [
+          "FIFA 14",
+          "Call of Duty: Ghosts",
+          "GTA V"
+        ],
+        "correct_answer": "C",
+        "explanation": "As vendas mundiais de GTA V passaram de US$ 1 bilhão em três dias.",
+        "sources": [
+          {
+            "title": "Take-Two Interactive — Grand Theft Auto V Worldwide Sales Surpass $1 Billion In First Three Days",
+            "url": "https://ir.take2games.com/node/16191/"
+          },
+          {
+            "title": "Guinness World Records — Fastest entertainment property to gross $1 billion",
+            "url": "https://www.guinnessworldrecords.com/world-records/105330-fastest-entertainment-property-to-gross-1-billion"
+          }
+        ]
+      },
+      {
+        "id": "dota-premiacao",
+        "question": "Em 2021, qual jogo teve um torneio com US$ 40 milhões em prêmios?",
+        "options": [
+          "League of Legends",
+          "Dota 2",
+          "Counter-Strike"
+        ],
+        "correct_answer": "B",
+        "explanation": "O The International 2021 teve cerca de US$ 40 milhões em prêmios.",
+        "sources": [
+          {
+            "title": "Guinness World Records — Largest eSports prize pool for a single tournament",
+            "url": "https://www.guinnessworldrecords.com/world-records/111053-largest-esports-prize-pool-for-a-single-tournament"
+          }
+        ]
+      },
+      {
+        "id": "tetris-espaco",
+        "question": "Qual foi o primeiro videogame levado ao espaço, em 1993?",
+        "options": [
+          "Tetris",
+          "Super Mario Land",
+          "Pac-Man"
+        ],
+        "correct_answer": "A",
+        "explanation": "Um cosmonauta levou Tetris e um Game Boy à estação Mir.",
+        "sources": [
+          {
+            "title": "Guinness World Records — First videogame in space",
+            "url": "https://www.guinnessworldrecords.com/world-records/109302-first-videogame-in-space"
+          },
+          {
+            "title": "Tetris — The History of Tetris",
+            "url": "https://play.tetris.com/news/the-history-of-tetris"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "id": "recordes-games-02",
+    "number": 7,
+    "title": "Recordes dos games · 2",
+    "subtitle": "Mais cinco recordes para desafiar seu lado gamer.",
+    "questions": [
+      {
+        "id": "pubg-steam",
+        "question": "Em 2018, qual jogo passou de 3 milhões de jogadores simultâneos na Steam?",
+        "options": [
+          "Dota 2",
+          "Counter-Strike",
+          "PUBG"
+        ],
+        "correct_answer": "C",
+        "explanation": "PUBG chegou a mais de 3,2 milhões de jogadores ao mesmo tempo.",
+        "sources": [
+          {
+            "title": "Guinness World Records — Most concurrent players on Steam for a videogame",
+            "url": "https://www.guinnessworldrecords.com/world-records/383569-most-actively-played-videogame-on-steam"
+          }
+        ]
+      },
+      {
+        "id": "mario-leilao",
+        "question": "Em 2021, qual jogo foi o primeiro a passar de US$ 1 milhão em leilão?",
+        "options": [
+          "Super Mario 64",
+          "Sonic the Hedgehog",
+          "The Legend of Zelda"
+        ],
+        "correct_answer": "A",
+        "explanation": "Uma cópia lacrada de Super Mario 64 foi vendida por US$ 1,56 milhão.",
+        "sources": [
+          {
+            "title": "Heritage Auctions — Super Mario 64 sells for $1.56 Million",
+            "url": "https://comics.ha.com/heritage-auctions-press-releases-and-news/-super-mario-64-sells-for-1.56-million-at-heritage-auctions-shattering-world-record-for-a-video-game.s?releaseId=4242"
+          }
+        ]
+      },
+      {
+        "id": "switch2-estreia",
+        "question": "Qual console da Nintendo vendeu mais de 3,5 milhões nos primeiros quatro dias?",
+        "options": [
+          "Nintendo Switch",
+          "Nintendo Switch 2",
+          "Nintendo 3DS"
+        ],
+        "correct_answer": "B",
+        "explanation": "O Switch 2 vendeu mais de 3,5 milhões nos primeiros quatro dias.",
+        "sources": [
+          {
+            "title": "Nintendo — Nintendo Switch 2 Sells Over 3.5 Million Units Worldwide in First Four Days",
+            "url": "https://www.nintendo.co.jp/corporate/release/en/2025/250611.html"
+          }
+        ]
+      },
+      {
+        "id": "kien-desenvolvimento",
+        "question": "Kien, que levou 22 anos até o lançamento, saiu para qual portátil?",
+        "options": [
+          "Nintendo DS",
+          "PSP",
+          "Game Boy Advance"
+        ],
+        "correct_answer": "C",
+        "explanation": "Iniciado em 2002, o projeto só chegou ao Game Boy Advance em 2024.",
+        "sources": [
+          {
+            "title": "Guinness World Records — Videogame with longest ever development period makes wait for GTA VI seem like nothing",
+            "url": "https://www.guinnessworldrecords.com/news/2025/11/videogame-with-longest-ever-development-period-makes-wait-for-gta-vi-seem-like-nothing"
+          }
+        ]
+      },
+      {
+        "id": "expedition-premios",
+        "question": "No The Game Awards 2025, qual jogo venceu 9 prêmios?",
+        "options": [
+          "Expedition 33",
+          "Hades II",
+          "Death Stranding 2"
+        ],
+        "correct_answer": "A",
+        "explanation": "Clair Obscur: Expedition 33 bateu o recorde de vitórias em uma edição.",
+        "sources": [
+          {
+            "title": "Guinness World Records — Most Game Awards won by a videogame in a single year",
+            "url": "https://www.guinnessworldrecords.com/world-records/781348-most-game-awards-won-by-a-videogame-in-a-single-year"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "id": "max-verstappen-01",
     "number": 8,
