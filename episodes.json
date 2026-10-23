@@ -782,5 +782,613 @@
         ]
       }
     ]
+  },
+  {
+    "date": "2026-10-26",
+    "id": "universo-gta-01",
+    "number": 9,
+    "title": "Universo GTA",
+    "subtitle": "Personagens, histórias e curiosidades da série.",
+    "questions": [
+      {
+        "id": "gta-cj-001",
+        "question": "Qual é o nome de CJ em GTA: San Andreas?",
+        "options": [
+          "Carl Jackson",
+          "Carl Johnson",
+          "Charles Johnson"
+        ],
+        "correct_answer": "B",
+        "explanation": "CJ é a abreviação de Carl Johnson, o protagonista de San Andreas.",
+        "sources": [
+          {
+            "title": "Grand Theft Auto: The Trilogy – The Definitive Edition — Rockstar Store",
+            "url": "https://store.rockstargames.com/pt-BR/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition?drm=PlayStation+5"
+          }
+        ]
+      },
+      {
+        "id": "gta-vice-city-002",
+        "question": "Em que década se passa GTA: Vice City?",
+        "options": [
+          "Anos 80",
+          "Anos 90",
+          "Anos 2000"
+        ],
+        "correct_answer": "A",
+        "explanation": "A história de Vice City se passa nos anos 1980.",
+        "sources": [
+          {
+            "title": "Grand Theft Auto: The Trilogy – The Definitive Edition — Rockstar Store",
+            "url": "https://store.rockstargames.com/pt-BR/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition?drm=PlayStation+5"
+          }
+        ]
+      },
+      {
+        "id": "gta-franklin-003",
+        "question": "Quem pode desacelerar o tempo ao dirigir em GTA V?",
+        "options": [
+          "Franklin",
+          "Michael",
+          "Trevor"
+        ],
+        "correct_answer": "A",
+        "explanation": "A habilidade especial de Franklin desacelera o tempo ao volante.",
+        "sources": [
+          {
+            "title": "Grand Theft Auto V — Game Help: Special Abilities",
+            "url": "https://dlassets-ssl.xboxlive.com/public/content/4f0a3089-ba2c-4f3d-9e38-102a41cbd885/GameManual/bffef18e-3f19-4190-a9b1-75402359b13b/en-CA/index.html"
+          }
+        ]
+      },
+      {
+        "id": "gta-roman-004",
+        "question": "Quem é o primo de Niko Bellic em GTA IV?",
+        "options": [
+          "Brucie",
+          "Dimitri",
+          "Roman"
+        ],
+        "correct_answer": "C",
+        "explanation": "Roman é o primo de Niko e sonha em enriquecer ao lado dele.",
+        "sources": [
+          {
+            "title": "Grand Theft Auto IV — Xbox, descrição da Rockstar Games",
+            "url": "https://www.xbox.com/en-us/games/store/Grand-Theft-Auto-IV/BRQ2SCZCTXF2?msockid=29ff464bc932659f28c25079c890647d"
+          }
+        ]
+      },
+      {
+        "id": "gta-tenpenny-005",
+        "question": "Quem deu voz a Tenpenny em GTA: San Andreas?",
+        "options": [
+          "Morgan Freeman",
+          "Samuel L. Jackson",
+          "Denzel Washington"
+        ],
+        "correct_answer": "B",
+        "explanation": "Samuel L. Jackson interpreta Tenpenny na dublagem original em inglês.",
+        "sources": [
+          {
+            "title": "Grand Theft Auto: San Andreas — manual oficial em português para PS3",
+            "url": "https://media-rockstargames-com.akamaized.net/rockstargames-newsite/img/manuals/pt_br/GTA_SA_PS3_MANUAL_POR.pdf"
+          },
+          {
+            "title": "Game Credits — Samuel L. Jackson — GameFAQs",
+            "url": "https://gamefaqs.gamespot.com/games/credit/14517-samuel-l-jackson"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-27",
+    "id": "pokemon-01",
+    "number": 10,
+    "title": "Pokémon",
+    "subtitle": "Cantos, disfarces e a estreia dos jogos.",
+    "questions": [
+      {
+        "id": "pokemon-jigglypuff-canto-001",
+        "question": "Qual Pokémon é famoso por fazer os outros dormirem com seu canto?",
+        "options": [
+          "Meowth",
+          "Jigglypuff",
+          "Psyduck"
+        ],
+        "correct_answer": "B",
+        "explanation": "Sua melodia relaxante faz os inimigos adormecerem.",
+        "sources": [
+          {
+            "title": "Jigglypuff | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0039/"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-sudowoodo-tipo-001",
+        "question": "Sudowoodo, que parece uma árvore, é de qual tipo?",
+        "options": [
+          "Planta",
+          "Terra",
+          "Pedra"
+        ],
+        "correct_answer": "C",
+        "explanation": "Ele imita uma árvore, mas é do tipo Pedra.",
+        "sources": [
+          {
+            "title": "Sudowoodo | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0185/"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-primeiros-jogos-001",
+        "question": "Pokémon estreou no Japão em 1996 com quais jogos?",
+        "options": [
+          "Red e Green",
+          "Red e Blue",
+          "Blue e Yellow"
+        ],
+        "correct_answer": "A",
+        "explanation": "Red e Green estrearam no Japão em 27 de fevereiro de 1996.",
+        "sources": [
+          {
+            "title": "A The Pokémon Company International revela planos para o Dia de Pokémon 2022",
+            "url": "https://press.pokemon.com/pt-BR/THE-POKEMON-COMPANY-INTERNATIONAL-UNVEILS-PLANS-FOR-POKEMON-DAY-2022"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-mimikyu-disfarce-001",
+        "question": "O disfarce de Mimikyu imita qual Pokémon?",
+        "options": [
+          "Eevee",
+          "Pikachu",
+          "Meowth"
+        ],
+        "correct_answer": "B",
+        "explanation": "Ele se esconde sob um pano que lembra Pikachu.",
+        "sources": [
+          {
+            "title": "Mimikyu | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0778/"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-ditto-risada-001",
+        "question": "Segundo a Pokédex, o que faz Ditto perder seu disfarce?",
+        "options": [
+          "Dar risada",
+          "Sentir frio",
+          "Ouvir música"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ao rir, Ditto não consegue manter a transformação.",
+        "sources": [
+          {
+            "title": "Ditto | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0132/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "id": "pokemon-02",
+    "number": 11,
+    "title": "Pokémon · 2",
+    "subtitle": "Tipos, formas e curiosidades da Pokédex.",
+    "questions": [
+      {
+        "id": "pokemon-bulbasaur-numero-001",
+        "question": "Qual Pokémon é o número 0001 da Pokédex Nacional?",
+        "options": [
+          "Pikachu",
+          "Charmander",
+          "Bulbasaur"
+        ],
+        "correct_answer": "C",
+        "explanation": "Bulbasaur abre a lista, seguido por Ivysaur e Venusaur.",
+        "sources": [
+          {
+            "title": "Bulbasaur | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0001/"
+          },
+          {
+            "title": "Pikachu | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0025/"
+          },
+          {
+            "title": "Charmander | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0004/"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-psyduck-tipo-001",
+        "question": "Qual é o tipo de Psyduck?",
+        "options": [
+          "Apenas Água",
+          "Apenas Psíquico",
+          "Água e Psíquico"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ele é apenas do tipo Água, mesmo tendo poderes misteriosos.",
+        "sources": [
+          {
+            "title": "Psyduck | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0054/"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-rotom-lavadora-001",
+        "question": "Qual Pokémon pode assumir uma forma de máquina de lavar?",
+        "options": [
+          "Porygon",
+          "Rotom",
+          "Magnemite"
+        ],
+        "correct_answer": "B",
+        "explanation": "Ao entrar numa máquina de lavar, ele vira Wash Rotom.",
+        "sources": [
+          {
+            "title": "Rotom — Wash Rotom | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/play/pokedex/0479_2/"
+          },
+          {
+            "title": "Porygon | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0137/"
+          },
+          {
+            "title": "Magnemite | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0081/"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-magikarp-evolucao-001",
+        "question": "Magikarp evolui para qual Pokémon?",
+        "options": [
+          "Lapras",
+          "Milotic",
+          "Gyarados"
+        ],
+        "correct_answer": "C",
+        "explanation": "A linha evolutiva de Magikarp leva a Gyarados.",
+        "sources": [
+          {
+            "title": "Magikarp | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0129/"
+          },
+          {
+            "title": "Milotic | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0350/"
+          },
+          {
+            "title": "Lapras | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0131/"
+          }
+        ]
+      },
+      {
+        "id": "pokemon-spoink-saltos-001",
+        "question": "Segundo a Pokédex, o que Spoink precisa fazer para sobreviver?",
+        "options": [
+          "Pular sem parar",
+          "Dormir em pé",
+          "Comer pérolas"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ele não sobrevive se parar de saltar.",
+        "sources": [
+          {
+            "title": "Spoink | Pokédex | The official Pokémon Website in Singapore",
+            "url": "https://sg.portal-pokemon.com/pokedex/0325/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "id": "esportes-01",
+    "number": 12,
+    "title": "Esportes",
+    "subtitle": "Regras, origens e curiosidades esportivas.",
+    "questions": [
+      {
+        "id": "ESP-01",
+        "question": "No vôlei de quadra, quem usa uma camisa de cor diferente?",
+        "options": [
+          "O levantador",
+          "O líbero",
+          "O oposto"
+        ],
+        "correct_answer": "B",
+        "explanation": "Especialista em defesa, o líbero usa um uniforme que contrasta com o do time.",
+        "sources": [
+          {
+            "title": "Official Volleyball Rules 2025–2028 — FIVB",
+            "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ESP-02",
+        "question": "Em qual país surgiu o futsal?",
+        "options": [
+          "Brasil",
+          "Argentina",
+          "Uruguai"
+        ],
+        "correct_answer": "C",
+        "explanation": "Juan Carlos Ceriani criou a modalidade em Montevidéu, em 1930.",
+        "sources": [
+          {
+            "title": "Die Geschichte des Futsal — FIFA",
+            "url": "https://inside.fifa.com/de/tournaments/mens/futsalworldcup/lithuania2021/news/die-geschichte-des-futsal-716529-x5350"
+          },
+          {
+            "title": "What is futsal? A beginner’s guide — UEFA",
+            "url": "https://www.uefa.com/uefafutsalchampionsleague/news/0262-1083b0377aa6-a225624d90ad-1000--what-is-futsal-a-beginner-s-guide/"
+          }
+        ]
+      },
+      {
+        "id": "ESP-03",
+        "question": "Quantas penas compõem a peteca natural do badminton?",
+        "options": [
+          "12",
+          "16",
+          "20"
+        ],
+        "correct_answer": "B",
+        "explanation": "O modelo de penas leva 16 penas presas à base.",
+        "sources": [
+          {
+            "title": "Laws of Badminton — regras de 2025 reproduzidas por WorldBadminton.com",
+            "url": "https://www.worldbadminton.com/rules/rules_2025.htm"
+          },
+          {
+            "title": "Laws of Badminton — BWF, edição de 2012 disponibilizada por Badminton Canada",
+            "url": "https://badmintoncanada.visualclubweb.nl/file/597573/?dl=1"
+          }
+        ]
+      },
+      {
+        "id": "ESP-04",
+        "question": "Qual esporte deu ao Brasil seu primeiro ouro olímpico?",
+        "options": [
+          "Tiro esportivo",
+          "Atletismo",
+          "Natação"
+        ],
+        "correct_answer": "A",
+        "explanation": "Guilherme Paraense conquistou o ouro em Antuérpia, em 1920.",
+        "sources": [
+          {
+            "title": "Guilherme Paraense — Comitê Olímpico do Brasil",
+            "url": "https://www.cob.org.br/time-brasil/medalhistas-olimpicos/guilherme-paraense"
+          }
+        ]
+      },
+      {
+        "id": "ESP-05",
+        "question": "Qual destas disputas integrou o programa olímpico oficial?",
+        "options": [
+          "Queda de braço",
+          "Corrida de saco",
+          "Cabo de guerra"
+        ],
+        "correct_answer": "C",
+        "explanation": "O cabo de guerra foi disputado nos Jogos entre 1900 e 1920.",
+        "sources": [
+          {
+            "title": "Indian Tug of War Competition Code — seção histórica da TWIF",
+            "url": "https://tugofwarindia.in/wp-content/uploads/2023/05/Rulebook_Introduction-History_Part-of_Indian-TW-C-Code-2013_3rd-Edition-2016_Revised.pdf"
+          },
+          {
+            "title": "Tug-Of-War at the 1900 Summer Olympics — Olympedia",
+            "url": "https://www.olympedia.org/editions/2/sports/TOW"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-30",
+    "id": "esportes-02",
+    "number": 13,
+    "title": "Esportes · 2",
+    "subtitle": "Tênis, basquete e marcos do esporte.",
+    "questions": [
+      {
+        "id": "ESP-06",
+        "question": "Em que tipo de piso se joga o torneio de Wimbledon?",
+        "options": [
+          "Saibro",
+          "Piso duro",
+          "Grama"
+        ],
+        "correct_answer": "C",
+        "explanation": "O torneio é disputado em quadras de grama natural.",
+        "sources": [
+          {
+            "title": "The Championships, Wimbledon 2026 Overview — WTA",
+            "url": "https://www.wtatennis.com/tournaments/904/wimbledon/2026/"
+          },
+          {
+            "title": "Grass Courts Preparation 2023 — Wimbledon",
+            "url": "https://www.wimbledon.com/pdf/6.%20Media%20Fact%20Sheet%20-%20Grounds%202023.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ESP-07",
+        "question": "As primeiras cestas de basquete eram usadas para guardar o quê?",
+        "options": [
+          "Pêssegos",
+          "Maçãs",
+          "Batatas"
+        ],
+        "correct_answer": "A",
+        "explanation": "James Naismith usou cestos de pêssegos como alvos no ginásio.",
+        "sources": [
+          {
+            "title": "Where Basketball was Invented: The History of Basketball — Springfield College",
+            "url": "https://springfield.edu/about/birthplace-of-basketball"
+          }
+        ]
+      },
+      {
+        "id": "ESP-08",
+        "question": "Quem recebeu o primeiro 10 da ginástica olímpica feminina?",
+        "options": [
+          "Olga Korbut",
+          "Nadia Comăneci",
+          "Larisa Latynina"
+        ],
+        "correct_answer": "B",
+        "explanation": "Ela recebeu a nota nas barras assimétricas, em Montreal 1976.",
+        "sources": [
+          {
+            "title": "First perfect 10 awarded in Olympic gymnastics — Guinness World Records",
+            "url": "https://www.guinnessworldrecords.com/world-records/first-perfect-10-awared-in-olympic-gymnastics"
+          }
+        ]
+      },
+      {
+        "id": "ESP-09",
+        "question": "Na esgrima, qual arma permite pontuar no corpo inteiro?",
+        "options": [
+          "Espada",
+          "Sabre",
+          "Florete"
+        ],
+        "correct_answer": "A",
+        "explanation": "Na espada, o alvo válido vai da cabeça aos pés.",
+        "sources": [
+          {
+            "title": "The Three Weapons — FIE Handbook",
+            "url": "https://static.fie.org/uploads/8/42817-Weapons_EN.pdf"
+          }
+        ]
+      },
+      {
+        "id": "ESP-10",
+        "question": "Qual país sediou a primeira Copa do Mundo feminina da FIFA?",
+        "options": [
+          "Japão",
+          "China",
+          "Estados Unidos"
+        ],
+        "correct_answer": "B",
+        "explanation": "A estreia foi em 1991, com China e Noruega no jogo de abertura.",
+        "sources": [
+          {
+            "title": "Ma: Scoring first Women’s World Cup goal was special — FIFA",
+            "url": "https://ipt.fifa.com/tournaments/womens/womensworldcup/chinapr1991/news/ma-scoring-first-women-s-world-cup-goal-was-special-2779998"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-10-31",
+    "id": "recordes-cinema-01",
+    "number": 14,
+    "title": "Recordes do cinema",
+    "subtitle": "Bilheteria, animação, Oscars e bastidores.",
+    "questions": [
+      {
+        "id": "cinema-titanic-primeiro-bilhao-001",
+        "question": "Qual foi o primeiro filme a arrecadar US$ 1 bilhão nos cinemas do mundo?",
+        "options": [
+          "Avatar",
+          "Titanic",
+          "Jurassic Park"
+        ],
+        "correct_answer": "B",
+        "explanation": "Titanic foi o primeiro a alcançar essa marca na bilheteria mundial, em 1998.",
+        "sources": [
+          {
+            "title": "First movie to gross $1 billion — Guinness World Records",
+            "url": "https://www.guinnessworldrecords.com/world-records/116151-first-movie-to-gross-1-billion"
+          }
+        ]
+      },
+      {
+        "id": "cinema-toy-story-computador-002",
+        "question": "Qual foi o primeiro longa 100% animado por computador?",
+        "options": [
+          "Toy Story",
+          "Vida de Inseto",
+          "Shrek"
+        ],
+        "correct_answer": "A",
+        "explanation": "Lançado em 1995, Toy Story inaugurou esse formato de longa de animação.",
+        "sources": [
+          {
+            "title": "Our Story — Pixar Animation Studios",
+            "url": "https://www.pixar.com/our-story"
+          }
+        ]
+      },
+      {
+        "id": "cinema-retorno-rei-onze-003",
+        "question": "Qual filme ganhou os 11 Oscars que disputou em 2004?",
+        "options": [
+          "Mestre dos Mares",
+          "Seabiscuit",
+          "O Retorno do Rei"
+        ],
+        "correct_answer": "C",
+        "explanation": "O Senhor dos Anéis: O Retorno do Rei transformou suas 11 indicações em 11 vitórias.",
+        "sources": [
+          {
+            "title": "The 76th Academy Awards Memorable Moments — Academy",
+            "url": "https://www.oscars.org/oscars/ceremonies/2004/memorable-moments"
+          }
+        ]
+      },
+      {
+        "id": "cinema-tatum-idade-004",
+        "question": "Tatum O'Neal ganhou o Oscar em 1974 com quantos anos?",
+        "options": [
+          "10 anos",
+          "13 anos",
+          "16 anos"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ela venceu como coadjuvante por Lua de Papel, aos 10 anos.",
+        "sources": [
+          {
+            "title": "Oldest/Youngest Acting Nominees and Winners — Academy",
+            "url": "https://ampasstorage.blob.core.windows.net/ampassearch/Act-OldestYoungest.pdf"
+          }
+        ]
+      },
+      {
+        "id": "cinema-007-explosao-005",
+        "question": "Em 2015, qual franquia teve a maior explosão de cinema?",
+        "options": [
+          "Missão: Impossível",
+          "007",
+          "Velozes e Furiosos"
+        ],
+        "correct_answer": "B",
+        "explanation": "O recorde veio de uma explosão real filmada para 007 Contra Spectre, no Marrocos.",
+        "sources": [
+          {
+            "title": "Latest Bond adventure Spectre sets record for Largest film stunt explosion ever — Guinness World Records",
+            "url": "https://www.guinnessworldrecords.com/news/2015/11/daniel-craig-accepts-certificate-for-largest-film-stunt-explosion-in-latest-bond-405307"
+          }
+        ]
+      }
+    ]
   }
 ]
