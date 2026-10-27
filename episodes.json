@@ -1390,5 +1390,401 @@
         ]
       }
     ]
+  },
+  {
+    "date": "2026-11-01",
+    "id": "animais-origens-01",
+    "number": 15,
+    "title": "Animais: origens e surpresas",
+    "subtitle": "Cores, evolução e histórias de origem.",
+    "questions": [
+      {
+        "id": "animais-origens-flamingo-cor",
+        "question": "De onde vem a cor\nrosa dos flamingos?",
+        "options": [
+          "Da luz solar",
+          "Da alimentação",
+          "Da água salgada"
+        ],
+        "correct_answer": "B",
+        "explanation": "Pigmentos dos alimentos dão\na cor rosa às penas.",
+        "sources": [
+          {
+            "title": "Smithsonian's National Zoo — Why Are Flamingos Pink? And Other Flamingo Facts",
+            "url": "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts"
+          }
+        ]
+      },
+      {
+        "id": "animais-origens-porquinho-india",
+        "question": "De onde veio o\nporquinho-da-índia?",
+        "options": [
+          "Ásia",
+          "África",
+          "América do Sul"
+        ],
+        "correct_answer": "C",
+        "explanation": "Seus ancestrais são da\nregião dos Andes.",
+        "sources": [
+          {
+            "title": "Smithsonian's National Zoo — Guinea pig",
+            "url": "https://nationalzoo.si.edu/animals/guinea-pig"
+          }
+        ]
+      },
+      {
+        "id": "animais-origens-aves-dinossauros",
+        "question": "Qual destes é um\ndinossauro vivo?",
+        "options": [
+          "Galinha",
+          "Crocodilo",
+          "Lagarto"
+        ],
+        "correct_answer": "A",
+        "explanation": "As aves pertencem ao grupo\ndos dinossauros terópodes.",
+        "sources": [
+          {
+            "title": "Natural History Museum — How dinosaurs evolved into birds",
+            "url": "https://www.nhm.ac.uk/discover/how-dinosaurs-evolved-into-birds.html"
+          }
+        ]
+      },
+      {
+        "id": "animais-origens-axolote-mexico",
+        "question": "O axolote é nativo\nde qual país?",
+        "options": [
+          "Japão",
+          "México",
+          "Austrália"
+        ],
+        "correct_answer": "B",
+        "explanation": "Ele é nativo de lagos da\nregião da Cidade do México.",
+        "sources": [
+          {
+            "title": "San Diego Zoo Wildlife Alliance — Axolotl",
+            "url": "https://animals.sandiegozoo.org/animals/axolotl"
+          }
+        ]
+      },
+      {
+        "id": "animais-origens-peixinho-dourado",
+        "question": "Em qual país começou\na domesticação do\npeixinho-dourado?",
+        "options": [
+          "China",
+          "Egito",
+          "Japão"
+        ],
+        "correct_answer": "A",
+        "explanation": "A domesticação começou na\nChina há mais de mil anos.",
+        "sources": [
+          {
+            "title": "Chen et al. (2020), PNAS — The evolutionary origin and domestication history of goldfish (Carassius auratus)",
+            "url": "https://www.pnas.org/doi/10.1073/pnas.2005545117"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "id": "plantas-origens-01",
+    "number": 16,
+    "title": "Plantas: origens e surpresas",
+    "subtitle": "Histórias e parentescos do mundo vegetal.",
+    "questions": [
+      {
+        "id": "plantas-batata-andes",
+        "question": "A batata “inglesa” foi\ndomesticada em\nqual região?",
+        "options": [
+          "Andes",
+          "Alpes",
+          "Himalaia"
+        ],
+        "correct_answer": "A",
+        "explanation": "A domesticação ocorreu nos\nAndes, na América do Sul.",
+        "sources": [
+          {
+            "title": "Natural History Museum — We finally solved the mystery of how potatoes evolved",
+            "url": "https://www.nhm.ac.uk/discover/news/2025/july/we-finally-solved-the-mystery-of-how-potatoes-evolved.html"
+          }
+        ]
+      },
+      {
+        "id": "plantas-baunilha-orquidea",
+        "question": "A baunilha natural vem\nde qual grupo de plantas?",
+        "options": [
+          "Palmeiras",
+          "Cactos",
+          "Orquídeas"
+        ],
+        "correct_answer": "C",
+        "explanation": "Ela vem dos frutos curados\nde orquídeas do gênero Vanilla.",
+        "sources": [
+          {
+            "title": "Royal Botanic Gardens, Kew — Vanilla planifolia Andrews: General information",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:262578-2/general-information"
+          }
+        ]
+      },
+      {
+        "id": "plantas-kiwi-china",
+        "question": "O kiwi, a fruta, é\noriginário de qual país?",
+        "options": [
+          "Nova Zelândia",
+          "China",
+          "Austrália"
+        ],
+        "correct_answer": "B",
+        "explanation": "Veio da China e foi levado à\nNova Zelândia no século XX.",
+        "sources": [
+          {
+            "title": "Bay of Plenty Regional Council — Wild kiwifruit",
+            "url": "https://www.boprc.govt.nz/environment/pests/pest-plants/climber/wild-kiwifruit/"
+          }
+        ]
+      },
+      {
+        "id": "plantas-milho-teosinto",
+        "question": "Qual cereal surgiu da\ndomesticação do teosinto?",
+        "options": [
+          "Trigo",
+          "Arroz",
+          "Milho"
+        ],
+        "correct_answer": "C",
+        "explanation": "O milho surgiu da domesticação\ndo teosinto no México.",
+        "sources": [
+          {
+            "title": "USDA Agricultural Research Service — The genetic architecture of teosinte catalyzed and constrained maize domestication",
+            "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=360274"
+          }
+        ]
+      },
+      {
+        "id": "plantas-brocolis-couveflor",
+        "question": "Qual é da mesma\nespécie do brócolis?",
+        "options": [
+          "Couve-flor",
+          "Alface",
+          "Espinafre"
+        ],
+        "correct_answer": "A",
+        "explanation": "São variedades cultivadas da\nespécie Brassica oleracea.",
+        "sources": [
+          {
+            "title": "Cambridge University Botanic Garden — Wild Cabbage (Brassica oleracea)",
+            "url": "https://www.botanic.cam.ac.uk/learning/trails/dnatrail/cabbage/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "id": "egito-antigo-01",
+    "number": 17,
+    "title": "Egito Antigo",
+    "subtitle": "Rio, crenças e descobertas da civilização egípcia.",
+    "questions": [
+      {
+        "id": "egito-nilo-001",
+        "question": "Qual rio fertilizava as terras do Egito Antigo com suas cheias?",
+        "options": [
+          "Tigre",
+          "Nilo",
+          "Eufrates"
+        ],
+        "correct_answer": "B",
+        "explanation": "As cheias depositavam sedimentos férteis nas margens, favorecendo as plantações.",
+        "sources": [
+          {
+            "title": "Nile Stelae — Ministry of Tourism and Antiquities, Egypt",
+            "url": "https://egymonuments.gov.eg/monuments/nile-stelae-1/"
+          }
+        ]
+      },
+      {
+        "id": "egito-coracao-002",
+        "question": "Para os egípcios antigos, qual órgão guardava a inteligência e a memória?",
+        "options": [
+          "Cérebro",
+          "Fígado",
+          "Coração"
+        ],
+        "correct_answer": "C",
+        "explanation": "Eles associavam ao coração o pensamento, os sentimentos e as lembranças.",
+        "sources": [
+          {
+            "title": "Heart amulet — The Metropolitan Museum of Art",
+            "url": "https://www.metmuseum.org/art/collection/search/545417"
+          },
+          {
+            "title": "Amulet in the shape of a heart — Bibliotheca Alexandrina, Antiquities Museum",
+            "url": "https://antiquities.bibalex.org/Collection/Detail.aspx?a=218&collection=39&lang=en"
+          }
+        ]
+      },
+      {
+        "id": "egito-senet-003",
+        "question": "O que era o senet,\npraticado no\nEgito Antigo?",
+        "options": [
+          "Um instrumento musical",
+          "Um jogo de tabuleiro",
+          "Um tipo de embarcação"
+        ],
+        "correct_answer": "B",
+        "explanation": "O tabuleiro do senet tinha 30 casas, distribuídas em três fileiras de dez.",
+        "sources": [
+          {
+            "title": "Board Games from Ancient Egypt and the Near East — The Metropolitan Museum of Art",
+            "url": "https://www.metmuseum.org/essays/board-games-from-ancient-egypt-and-the-near-east"
+          }
+        ]
+      },
+      {
+        "id": "egito-piramide-004",
+        "question": "Qual pedra revestia originalmente a Grande Pirâmide de Gizé?",
+        "options": [
+          "Calcário",
+          "Mármore",
+          "Granito"
+        ],
+        "correct_answer": "A",
+        "explanation": "O revestimento de calcário branco era polido, deixando as faces lisas e brilhantes.",
+        "sources": [
+          {
+            "title": "Casing stone from the Great Pyramid of Giza — National Museums Scotland",
+            "url": "https://www.nms.ac.uk/discover-catalogue/casing-stone-from-the-great-pyramid-of-giza"
+          },
+          {
+            "title": "The Great Pyramid — Ministry of Tourism and Antiquities, Egypt",
+            "url": "https://egymonuments.gov.eg/monuments/the-great-pyramid/"
+          }
+        ]
+      },
+      {
+        "id": "egito-cleopatra-005",
+        "question": "A dinastia de Cleópatra VII tinha qual origem?",
+        "options": [
+          "Persa",
+          "Núbia",
+          "Macedônica"
+        ],
+        "correct_answer": "C",
+        "explanation": "Sua dinastia foi fundada por Ptolomeu I, general de Alexandre, o Grande.",
+        "sources": [
+          {
+            "title": "Ptolemaic Egypt — University College London, Digital Egypt for Universities",
+            "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/gr/background.html"
+          },
+          {
+            "title": "Egypt in the Ptolemaic Period — The Metropolitan Museum of Art",
+            "url": "https://www.metmuseum.org/essays/egypt-in-the-ptolemaic-period"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-04",
+    "id": "egito-antigo-02",
+    "number": 18,
+    "title": "Egito Antigo · 2",
+    "subtitle": "Escrita, calendário e símbolos do Egito Antigo.",
+    "questions": [
+      {
+        "id": "egito-papiro-006",
+        "question": "O papiro usado para escrever era feito de quê?",
+        "options": [
+          "Tiras de um caule",
+          "Peles de animais",
+          "Placas de argila"
+        ],
+        "correct_answer": "A",
+        "explanation": "Tiras do interior do caule da planta papiro eram sobrepostas e secas sob pressão.",
+        "sources": [
+          {
+            "title": "Papyrus in Ancient Egypt — The Metropolitan Museum of Art",
+            "url": "https://www.metmuseum.org/essays/papyrus-in-ancient-egypt"
+          }
+        ]
+      },
+      {
+        "id": "egito-calendario-007",
+        "question": "Quantos dias tinha o ano do calendário civil egípcio?",
+        "options": [
+          "354 dias",
+          "360 dias",
+          "365 dias"
+        ],
+        "correct_answer": "C",
+        "explanation": "O ano tinha 12 meses de 30 dias e mais cinco dias extras.",
+        "sources": [
+          {
+            "title": "Festivals in the ancient Egyptian calendar — University College London, Digital Egypt for Universities",
+            "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/ideology/festivaldates.html"
+          }
+        ]
+      },
+      {
+        "id": "egito-hatshepsut-008",
+        "question": "Qual destas mulheres assumiu o título de faraó?",
+        "options": [
+          "Nefertari",
+          "Hatshepsut",
+          "Tiye"
+        ],
+        "correct_answer": "B",
+        "explanation": "Hatshepsut adotou os títulos de faraó e governou na XVIII dinastia.",
+        "sources": [
+          {
+            "title": "Seated Statue of Hatshepsut — The Metropolitan Museum of Art",
+            "url": "https://www.metmuseum.org/art/collection/search/544450"
+          },
+          {
+            "title": "Queen Nefertari being led by Isis — The Metropolitan Museum of Art",
+            "url": "https://www.metmuseum.org/art/collection/search/557811"
+          },
+          {
+            "title": "Queen Tiye — National Museum of Egyptian Civilization",
+            "url": "https://nmec.gov.eg/queen-tiye/"
+          }
+        ]
+      },
+      {
+        "id": "egito-bastet-009",
+        "question": "Qual animal era sagrado para a deusa egípcia Bastet?",
+        "options": [
+          "Crocodilo",
+          "Falcão",
+          "Gato"
+        ],
+        "correct_answer": "C",
+        "explanation": "Bastet podia ser representada como gata, e os gatos eram sagrados para ela.",
+        "sources": [
+          {
+            "title": "Statuette of a cat — The Metropolitan Museum of Art",
+            "url": "https://www.metmuseum.org/art/collection/search/552880"
+          }
+        ]
+      },
+      {
+        "id": "egito-roseta-010",
+        "question": "Qual idioma da Pedra de Roseta ajudou a decifrar os hieróglifos?",
+        "options": [
+          "Grego",
+          "Latim",
+          "Persa"
+        ],
+        "correct_answer": "A",
+        "explanation": "O texto grego do decreto ajudou estudiosos a decifrar as inscrições egípcias.",
+        "sources": [
+          {
+            "title": "The Rosetta Stone — British Museum, Google Arts & Culture",
+            "url": "https://artsandculture.google.com/story/0060/OQVRt6m8dEG4rw"
+          }
+        ]
+      }
+    ]
   }
 ]
