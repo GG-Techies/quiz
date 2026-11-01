@@ -20,4 +20,4 @@ export function recordAnswer(episode, progress, answer) {
   return {...progress,started:true,answers:[...progress.answers,answer]};
 }
 export function streak(days, today) { const set=new Set(days); let d=set.has(today)?today:shiftDay(today,-1); let n=0; while(set.has(d)){n++;d=shiftDay(d,-1);} return n; }
-export function shareText(episode, progress, url) { return `🎯 Bora Valendo! • Desafio #${formatEpisodeNumber(episode.number)}\n${progress.answers.map((a,i)=>a==='ABC'.indexOf(episode.questions[i].correct_answer)?'🟩':'🟥').join('')}\nAcertei ${score(episode,progress)}/5. E você?\n${url}`; }
+export function shareText(episode, progress, url) { return `🎯 Bora Valendo! • Desafio #${formatEpisodeNumber(episode.number)}\n${episode.title}\n\n${progress.answers.map((a,i)=>a==='ABC'.indexOf(episode.questions[i].correct_answer)?'🟩':'🟥').join('')}\nAcertei ${score(episode,progress)}/5. E você?\n${url}`; }
