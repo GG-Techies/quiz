@@ -1786,5 +1786,209 @@
         ]
       }
     ]
+  },
+  {
+    "date": "2026-11-05",
+    "id": "aves-01",
+    "number": 19,
+    "title": "Aves",
+    "subtitle": "Origem, voo, ninhos e habilidades surpreendentes.",
+    "questions": [
+      {
+        "id": "aves-002",
+        "question": "De qual país a calopsita é nativa?",
+        "options": [
+          "Austrália",
+          "Índia",
+          "Brasil"
+        ],
+        "correct_answer": "A",
+        "explanation": "Na natureza, a calopsita vive em ambientes abertos do interior da Austrália.",
+        "sources": [
+          {
+            "title": "Nymphicus hollandicus, Cockatiel — Museums Victoria Collections",
+            "url": "https://collections.museumsvictoria.com.au/species/12555"
+          }
+        ]
+      },
+      {
+        "id": "aves-003",
+        "question": "Qual destas aves consegue voar para trás?",
+        "options": [
+          "Andorinha",
+          "Pardal",
+          "Beija-flor"
+        ],
+        "correct_answer": "C",
+        "explanation": "O movimento especial das asas permite voar para trás e pairar no ar.",
+        "sources": [
+          {
+            "title": "Interesting Facts on Hummingbirds — UC Davis",
+            "url": "https://hummingbirds.vetmed.ucdavis.edu/information/facts"
+          },
+          {
+            "title": "Hummingbirds of North America — U.S. Fish & Wildlife Service",
+            "url": "https://www.fws.gov/story/hummingbirds-north-america"
+          }
+        ]
+      },
+      {
+        "id": "aves-006",
+        "question": "Quem constrói o ninho do joão-de-barro?",
+        "options": [
+          "Só a fêmea",
+          "Só o macho",
+          "O macho e a fêmea"
+        ],
+        "correct_answer": "C",
+        "explanation": "Os dois trabalham na construção do ninho, que lembra um pequeno forno.",
+        "sources": [
+          {
+            "title": "João-de-barro — Rede de Proteção Animal de Curitiba",
+            "url": "https://protecaoanimal.curitiba.pr.gov.br/animais-silvestres-curitiba/vertebrados/aves/joao-barro"
+          }
+        ]
+      },
+      {
+        "id": "aves-007",
+        "question": "De qual grupo de animais as aves evoluíram?",
+        "options": [
+          "Dinossauros",
+          "Pterossauros",
+          "Crocodilos"
+        ],
+        "correct_answer": "A",
+        "explanation": "As aves são dinossauros vivos, descendentes de pequenos terópodes.",
+        "sources": [
+          {
+            "title": "Why are birds the only surviving dinosaurs? — Natural History Museum",
+            "url": "https://www.nhm.ac.uk/discover/why-are-birds-the-only-surviving-dinosaurs.html"
+          },
+          {
+            "title": "The living dinosaurs — Australian Museum",
+            "url": "https://australian.museum/learn/dinosaurs/the-living-dinosaurs/"
+          }
+        ]
+      },
+      {
+        "id": "aves-008",
+        "question": "Qual destas aves pode imitar até sons de máquinas?",
+        "options": [
+          "João-de-barro",
+          "Martim-pescador",
+          "Ave-lira"
+        ],
+        "correct_answer": "C",
+        "explanation": "A ave-lira imita outras aves e pode reproduzir sons de motores e motosserras.",
+        "sources": [
+          {
+            "title": "Superb Lyrebird — Australian Museum",
+            "url": "https://australian.museum/learn/animals/birds/superb-lyrebird/"
+          },
+          {
+            "title": "Superb lyrebird imitates an electronic game — National Film and Sound Archive of Australia",
+            "url": "https://www.nfsa.gov.au/collection/item/superb-lyrebird-imitates-electronic-game"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-11-06",
+    "id": "lewis-hamilton-01",
+    "number": 20,
+    "title": "Lewis Hamilton",
+    "subtitle": "Trajetória na Fórmula 1 e curiosidades fora das pistas.",
+    "questions": [
+      {
+        "id": "hamilton-cidadania-001",
+        "question": "Em 2022, Hamilton virou\ncidadão honorário\nde qual país?",
+        "options": [
+          "Itália",
+          "Brasil",
+          "Canadá"
+        ],
+        "correct_answer": "B",
+        "explanation": "O título foi entregue na Câmara dos Deputados em novembro de 2022.",
+        "sources": [
+          {
+            "title": "Câmara concede título de cidadão honorário a Lewis Hamilton — Câmara dos Deputados",
+            "url": "https://www.camara.leg.br/noticias/917486-camara-concede-titulo-de-cidadao-honorario-a-lewis-hamilton/"
+          }
+        ]
+      },
+      {
+        "id": "hamilton-estreia-002",
+        "question": "Por qual equipe Hamilton estreou na F1, em 2007?",
+        "options": [
+          "McLaren",
+          "Ferrari",
+          "Mercedes"
+        ],
+        "correct_answer": "A",
+        "explanation": "Hamilton estreou em 2007, como companheiro de Fernando Alonso na McLaren.",
+        "sources": [
+          {
+            "title": "Lewis Hamilton — Formula 1 Hall of Fame",
+            "url": "https://www.formula1.com/en/information/drivers-hall-of-fame-lewis-hamilton.6TbSwzJA2miTUwtnXUHkjk"
+          }
+        ]
+      },
+      {
+        "id": "hamilton-numero-003",
+        "question": "De onde veio o 44 que Hamilton usava no kart?",
+        "options": [
+          "Do número da casa",
+          "Da camisa de um jogador",
+          "Da placa do carro do pai"
+        ],
+        "correct_answer": "C",
+        "explanation": "O carro de seu pai tinha F44 na placa.\nO número foi usado no kart e retomado na F1.",
+        "sources": [
+          {
+            "title": "From childhood number plates to football heroes – Why each driver picked their F1 race number — Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/from-childhood-number-plates-to-karting-titles-why-each-driver-picked-their.49DqOwhvza1RRvE2Rgi1so.49DqOwhvza1RRvE2Rgi1so"
+          }
+        ]
+      },
+      {
+        "id": "hamilton-titulo-2008-004",
+        "question": "Quem Hamilton passou\nna última volta para\nser campeão em 2008?",
+        "options": [
+          "Timo Glock",
+          "Sebastian Vettel",
+          "Fernando Alonso"
+        ],
+        "correct_answer": "A",
+        "explanation": "Ao passar Glock em Interlagos, ficou em quinto e garantiu seu primeiro título.",
+        "sources": [
+          {
+            "title": "Classic onboard - ride with Glock for the dramatic final lap of Brazil ‘08 — Formula 1",
+            "url": "https://www.formula1.com/en/latest/article/f1-classic-onboard-glock-brazil-2008-final-lap.4LNMAO7WxtLnE38uvEURtg.4LNMAO7WxtLnE38uvEURtg"
+          }
+        ]
+      },
+      {
+        "id": "hamilton-musica-005",
+        "question": "Com qual cantora Hamilton participou da música “Pipe”, de 2018?",
+        "options": [
+          "Lady Gaga",
+          "Christina Aguilera",
+          "Ariana Grande"
+        ],
+        "correct_answer": "B",
+        "explanation": "Ele gravou como XNDA e confirmou publicamente a participação em 2020.",
+        "sources": [
+          {
+            "title": "Revelação! Hamilton admite ser o rapper XNDA e até já gravou para Christina Aguilera — ge",
+            "url": "https://ge.globo.com/motor/formula-1/noticia/revelacao-hamilton-admite-ser-o-rapper-xnda-e-ate-ja-gravou-para-christina-aguilera.ghtml"
+          },
+          {
+            "title": "Lewis Hamilton, on and off the track: World champion on 'art form' and 'creativity' in Sky F1 exclusive — Sky Sports",
+            "url": "https://www.skysports.com/f1/news/12262883/lewis-hamilton-on-and-off-the-track-world-champion-on-art-form-and-creativity-in-sky-f1-exclusive"
+          }
+        ]
+      }
+    ]
   }
 ]
